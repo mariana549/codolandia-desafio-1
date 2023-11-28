@@ -66,21 +66,28 @@ body {
 .info-header .input-pesquisar #pesquisar {
    width: 100%;
    height: 100%;
-   border: 0;
    border-radius: 5px;
    background: rgba(255, 255, 255, 0.20);
+   border: none;
 }
 
-#pesquisar::after {
-   content: 'Pesquisar no blog';
+/* .info-header .input-pesquisar #pesquisar:che {
+
+} */
+
+#pesquisar::placeholder {
+   /* content: 'Pesquisar no blog';
    position: absolute;
    top: 21px;
-   left: 64px;
+   left: 64px; */
+   padding-left: 70px;
+   color: aliceblue;
 }
 
+/* 
 #pesquisar:hover::after {
    display: none;
-}
+} */
 
 .icone-pesquisa {
    background: url(../image/search.svg);
