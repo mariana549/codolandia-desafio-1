@@ -1,0 +1,11 @@
+
+@media (max-width: 1200px) {
+   .info-header, .assunto {
+      width: 75%;
+     }
+
+     .section {
+      margin: 50px 0 50px 0;
+
+     }
+}
