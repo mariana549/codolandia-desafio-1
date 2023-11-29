@@ -111,13 +111,18 @@ body {
    margin-bottom: 22px;
 }
 
-.info-top::after {
-   content: url('../image/heart.svg');
-}
-
-.info-top:hover::after{
-   background-color: var(--brand-color);
-}
+.icon {
+   fill: #574ae801;
+   stroke: #574ae8;
+   stroke-width: 7;
+   transition: fill 0.3s;
+   cursor: pointer;
+ }
+ 
+ .icon.filled,
+ .icon:hover {
+   fill: #574ae8;
+ }
 
 .titulo-principal {
    color: var(--dark-10);
